@@ -1,20 +1,30 @@
 # SDA_MongoDB
-##SDA Final Project Report##
+SDA Final Project Report
 
 Comparing Average Departure Delays Across Airlines
+
 Objective:
+
 To analyze and compare the average departure delays among various airlines operating in the USA.
+
 Inference:
+
 The chart highlights discrepancies in departure delays among airlines. Some airlines consistently perform better in minimizing delays, while others exhibit significant delays. This information could aid stakeholders in identifying operational inefficiencies and setting benchmarks for improved performance.
 Airline Performance: Average Monthly Departure Delays
-Objective:
-To examine the trends in monthly departure delays for different airlines.
+
+Objective: To examine the trends in monthly departure delays for different airlines.
+
 Inference:
+
 The monthly analysis reveals seasonal trends and fluctuations in airline performance. For instance, certain months may show higher delays due to weather conditions or increased demand. This data can guide resource allocation and scheduling decisions.
 Top 10 Airlines with the Highest Average Arrival Delays
+
 Objective:
+
 To identify the airlines with the highest average arrival delays.
+
 Inference:
+
 The results indicate that a subset of airlines contributes significantly to arrival delays. Understanding these patterns can help in targeting specific airlines for operational improvements, enhancing overall punctuality.
 Top 5 Busiest Destination Airports by Scheduled Flights
 Objective:
