@@ -1,7 +1,12 @@
-# SDA_MongoDB
-SDA Final Project Report
+Analysing Flight Delay 
+
+Dashboard Project
+
+Dataset : https://www.kaggle.com/datasets/usdot/flight-delays?ref=hackernoon.com
+
 
 Comparing Average Departure Delays Across Airlines
+XYZ
 
 Objective:
 
