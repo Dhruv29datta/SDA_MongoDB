@@ -9,7 +9,6 @@ To track the number of flights operating on time compared to a specified target.
 ### Inference:
 The gauge chart shows **582 flights were on time** against a target of **1,000 flights**. This indicates a significant gap in punctuality, suggesting delays in the majority of the operations.
 
-![Gauge Chart - On-Time Flights](https://via.placeholder.com/800x400?text=Gauge+Chart+Placeholder)
 
 ---
 
@@ -20,7 +19,6 @@ To display the total number of flights operated during the analysis period.
 ### Inference:
 The total flights operated are **247,000**. This indicates a high volume of flight operations, which may be contributing to operational challenges like delays or congestion.
 
-![Bar Chart - Total Flights Operated](https://via.placeholder.com/800x400?text=Bar+Chart+Placeholder)
 
 ---
 
@@ -31,7 +29,7 @@ To visualize the intensity of departure delays geographically across the United 
 ### Inference:
 The heatmap shows areas with higher departure delays concentrated in specific regions, with values peaking at **300 minutes**. Major hubs in the Midwest and East Coast exhibit significant delays, possibly due to higher traffic density or weather-related challenges.
 
-![Heatmap - Departure Delays](https://via.placeholder.com/800x400?text=Heatmap+Placeholder)
+![Heatmap - Departure Delays](https://drive.google.com/uc?id=1kfwPhQblam9ThL7NmcAYS-ZRnrA0qEci)
 
 ---
 
@@ -42,7 +40,6 @@ To identify airlines with the highest average arrival delays.
 ### Inference:
 The airlines **WN (Southwest Airlines)** and **VX (Virgin America)** have average arrival delays of **40.56 minutes** and **41.48 minutes**, respectively. Airlines **US** and **UA** also show substantial delays, highlighting potential inefficiencies in their operations or external factors like weather.
 
-![Bar Chart - Average Arrival Delays](https://via.placeholder.com/800x400?text=Bar+Chart+Placeholder)
 
 ---
 
@@ -64,7 +61,7 @@ To compare the average departure delays across different airlines.
 ### Inference:
 The airline **MO** shows the highest average departure delay of **~26 minutes**, significantly higher than other airlines. Airlines **F9**, **UA**, and **AA** also exhibit substantial delays, indicating operational inefficiencies or potential resource constraints.
 
-![Bar Chart - Average Departure Delays](https://via.placeholder.com/800x400?text=Bar+Chart+Placeholder)
+![Bar Chart - Average Departure Delays](https://drive.google.com/uc?id=1VnIYAubaBxv8cth_xqVyq4CIz30R51Yg)
 
 ---
 
@@ -86,7 +83,7 @@ To analyze taxi-out durations by scheduled departure times for different airline
 ### Inference:
 The chart highlights that airlines with higher scheduled departure times often face prolonged taxi-out durations (peaking at **140 minutes**). This is especially noticeable for **AA (American Airlines)** and **WN (Southwest Airlines)**, indicating potential ground operations inefficiencies.
 
-![Scatter Plot - Taxi-Out Durations](https://via.placeholder.com/800x400?text=Scatter+Plot+Placeholder)
+![Scatter Plot - Taxi-Out Durations](https://drive.google.com/uc?id=13q9SEj81Bn-to2_W40PAdrTbS3pSq7Iy)
 
 ---
 
@@ -97,7 +94,7 @@ To identify the airlines operating the highest number of flights.
 ### Inference:
 The bar chart shows **WN (Southwest Airlines)** leads with nearly **50,000 flights**, followed by **DL (Delta Air Lines)** and **EV (ExpressJet)** with around **35,000** and **30,000 flights**, respectively. Airlines like **VX (Virgin America)** and **HA (Hawaiian Airlines)** have the lowest flight counts, indicating a smaller operational footprint.
 
-![Bar Chart - Leading Airlines](https://via.placeholder.com/800x400?text=Bar+Chart+Placeholder)
+![Bar Chart - Leading Airlines](https://drive.google.com/uc?id=1rxeSRpWyfnLFSUXkdbv-_UKWhqmeUGtl)
 
 ---
 
@@ -108,7 +105,7 @@ To visualize the market share distribution of airlines based on total flights.
 ### Inference:
 **WN (Southwest Airlines)** holds the largest market share, represented by the largest segment in the pie chart, reinforcing its position as a key player. **DL (Delta Air Lines)** and **EV (ExpressJet)** follow with considerable shares, while smaller carriers like **HA (Hawaiian Airlines)** and **VX (Virgin America)** have minimal contributions. This indicates a highly concentrated market with a few dominant airlines driving most operations.
 
-![Pie Chart - Airline Market Share](https://via.placeholder.com/800x400?text=Pie+Chart+Placeholder)
+![Pie Chart - Airline Market Share](https://drive.google.com/uc?id=1_LRoCbkv74APese8HPXFni8L1vY39N7n)
 
 ---
 
