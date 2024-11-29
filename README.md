@@ -1,96 +1,116 @@
-Analysing Flight Delay 
+# Flight Operations Analysis
 
-Dashboard Project
+Flight Delay dataset taken from kaggle: https://www.kaggle.com/datasets/usdot/flight-delays?ref=hackernoon.com
 
-Dataset : https://www.kaggle.com/datasets/usdot/flight-delays?ref=hackernoon.com
+## 1. On-Time Flights
+### Objective:
+To track the number of flights operating on time compared to a specified target.
 
+### Inference:
+The gauge chart shows **582 flights were on time** against a target of **1,000 flights**. This indicates a significant gap in punctuality, suggesting delays in the majority of the operations.
 
-Comparing Average Departure Delays Across Airlines
-XYZ
+![Gauge Chart - On-Time Flights](https://via.placeholder.com/800x400?text=Gauge+Chart+Placeholder)
 
-Objective:
+---
 
-To analyze and compare the average departure delays among various airlines operating in the USA.
+## 2. Total Flights Operated
+### Objective:
+To display the total number of flights operated during the analysis period.
 
-Inference:
+### Inference:
+The total flights operated are **247,000**. This indicates a high volume of flight operations, which may be contributing to operational challenges like delays or congestion.
 
-The chart highlights discrepancies in departure delays among airlines. Some airlines consistently perform better in minimizing delays, while others exhibit significant delays. This information could aid stakeholders in identifying operational inefficiencies and setting benchmarks for improved performance.
-Airline Performance: Average Monthly Departure Delays
+![Bar Chart - Total Flights Operated](https://via.placeholder.com/800x400?text=Bar+Chart+Placeholder)
 
-Objective: To examine the trends in monthly departure delays for different airlines.
+---
 
-Inference:
+## 3. Departure Delay in USA (Map Visualization)
+### Objective:
+To visualize the intensity of departure delays geographically across the United States.
 
-The monthly analysis reveals seasonal trends and fluctuations in airline performance. For instance, certain months may show higher delays due to weather conditions or increased demand. This data can guide resource allocation and scheduling decisions.
-Top 10 Airlines with the Highest Average Arrival Delays
+### Inference:
+The heatmap shows areas with higher departure delays concentrated in specific regions, with values peaking at **300 minutes**. Major hubs in the Midwest and East Coast exhibit significant delays, possibly due to higher traffic density or weather-related challenges.
 
-Objective:
+![Heatmap - Departure Delays](https://via.placeholder.com/800x400?text=Heatmap+Placeholder)
 
-To identify the airlines with the highest average arrival delays.
+---
 
-Inference:
+## 4. Top 10 Airlines with the Highest Average Arrival Delays
+### Objective:
+To identify airlines with the highest average arrival delays.
 
-The results indicate that a subset of airlines contributes significantly to arrival delays. Understanding these patterns can help in targeting specific airlines for operational improvements, enhancing overall punctuality.
+### Inference:
+The airlines **WN (Southwest Airlines)** and **VX (Virgin America)** have average arrival delays of **40.56 minutes** and **41.48 minutes**, respectively. Airlines **US** and **UA** also show substantial delays, highlighting potential inefficiencies in their operations or external factors like weather.
 
-Top 5 Busiest Destination Airports by Scheduled Flights
+![Bar Chart - Average Arrival Delays](https://via.placeholder.com/800x400?text=Bar+Chart+Placeholder)
 
-Objective:
+---
 
-To determine the busiest destination airports based on the number of scheduled flights.
+## 5. Top 5 Busiest Destination Airports by Scheduled Departures
+### Objective:
+To identify the busiest destination airports based on scheduled departures.
 
-Inference:
-The findings show that certain airports handle a significantly higher volume of flights. These hubs play a critical role in the aviation network and may require focused investment in infrastructure to manage their traffic efficiently.
+### Inference:
+The busiest airport is **ATL (Hartsfield-Jackson Atlanta)** with nearly **16,000 scheduled departures**, followed by **ORD (Chicago O'Hare)** and **DFW (Dallas/Fort Worth)**. These high departure volumes could lead to air traffic congestion and contribute to delays.
 
-Departure Delays Over the Day
+![Bar Chart - Busiest Airports](https://via.placeholder.com/800x400?text=Bar+Chart+Placeholder)
 
-Objective:
+---
 
-To analyze how departure delays vary across different times of the day.
+## 6. Comparing Average Departure Delays Across Airlines
+### Objective:
+To compare the average departure delays across different airlines.
 
-Inference:
-The chart highlights peak periods where delays are most likely. This information is valuable for airlines and airports in optimizing scheduling and reducing congestion during peak hours.
+### Inference:
+The airline **MO** shows the highest average departure delay of **~26 minutes**, significantly higher than other airlines. Airlines **F9**, **UA**, and **AA** also exhibit substantial delays, indicating operational inefficiencies or potential resource constraints.
 
-Airline Market Share by Total Flights
+![Bar Chart - Average Departure Delays](https://via.placeholder.com/800x400?text=Bar+Chart+Placeholder)
 
-Objective:
-To visualize the market share of airlines based on the total number of flights operated.
+---
 
-Inference:
+## 7. Airline Performance: Average Monthly Departure Delays
+### Objective:
+To analyze the average monthly departure delays for different airlines.
 
-Market share data provides insights into the dominance of certain airlines in the industry. This can be used for competitive analysis and strategic decision-making by stakeholders.
+### Inference:
+The chart reveals that **NK (Spirit Airlines)** experiences the highest average delay in certain months (**~24 minutes**), followed by **UA (United Airlines)**. Variations between airlines suggest differences in operational efficiency or demand during specific periods.
 
-Airline Taxi Out Durations by Scheduled Departure Hour
+![Line Chart - Monthly Departure Delays](https://via.placeholder.com/800x400?text=Line+Chart+Placeholder)
 
-Objective:
+---
 
-To evaluate how taxi-out durations vary with the scheduled departure time.
+## 8. Airline Taxi-Out Durations by Scheduled Departures
+### Objective:
+To analyze taxi-out durations by scheduled departure times for different airlines.
 
-Inference:
+### Inference:
+The chart highlights that airlines with higher scheduled departure times often face prolonged taxi-out durations (peaking at **140 minutes**). This is especially noticeable for **AA (American Airlines)** and **WN (Southwest Airlines)**, indicating potential ground operations inefficiencies.
 
-The data shows that taxi-out durations are influenced by factors such as airport congestion and time of day. Airlines can use this information to refine their scheduling and reduce fuel consumption.
+![Scatter Plot - Taxi-Out Durations](https://via.placeholder.com/800x400?text=Scatter+Plot+Placeholder)
 
-On-Time Flights
-Objective:
+---
 
-To assess the percentage of flights arriving on time for different airlines.
-Inference:
-
-On-time performance is a critical metric for customer satisfaction and operational efficiency. The chart provides a benchmark for airlines to compare their punctuality performance.
-
-Total Flights Operated
-Objective:
-
-To analyze the volume of flights operated by each airline.
-
-Inference:
-
-The data highlights the operational scale of various airlines. High-volume operators may face unique challenges in maintaining efficiency and punctuality.
-Leading Airlines by Number of Flights
-
-Objective:
-
+## 9. Leading Airlines by Number of Flights
+### Objective:
 To identify the airlines operating the highest number of flights.
 
-Inference:
+### Inference:
+The bar chart shows **WN (Southwest Airlines)** leads with nearly **50,000 flights**, followed by **DL (Delta Air Lines)** and **EV (ExpressJet)** with around **35,000** and **30,000 flights**, respectively. Airlines like **VX (Virgin America)** and **HA (Hawaiian Airlines)** have the lowest flight counts, indicating a smaller operational footprint.
 
-The results emphasize the dominance of certain airlines in terms of operational scale. This information can gui
+![Bar Chart - Leading Airlines](https://via.placeholder.com/800x400?text=Bar+Chart+Placeholder)
+
+---
+
+## 10. Airline Market Share by Total Flights
+### Objective:
+To visualize the market share distribution of airlines based on total flights.
+
+### Inference:
+**WN (Southwest Airlines)** holds the largest market share, represented by the largest segment in the pie chart, reinforcing its position as a key player. **DL (Delta Air Lines)** and **EV (ExpressJet)** follow with considerable shares, while smaller carriers like **HA (Hawaiian Airlines)** and **VX (Virgin America)** have minimal contributions. This indicates a highly concentrated market with a few dominant airlines driving most operations.
+
+![Pie Chart - Airline Market Share](https://via.placeholder.com/800x400?text=Pie+Chart+Placeholder)
+
+---
+
+## Notes:
+All visualizations and insights are based on the analyzed flight operations data. Replace the placeholder images with actual charts for better visualization.
