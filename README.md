@@ -107,7 +107,4 @@ To visualize the market share distribution of airlines based on total flights.
 
 ![Pie Chart - Airline Market Share](https://drive.google.com/uc?id=1_LRoCbkv74APese8HPXFni8L1vY39N7n)
 
----
 
-## Notes:
-All visualizations and insights are based on the analyzed flight operations data. Replace the placeholder images with actual charts for better visualization.
